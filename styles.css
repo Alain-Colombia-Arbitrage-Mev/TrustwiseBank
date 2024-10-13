@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .font-manrope {
+    font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
+  }
+  .bg-background- {
+    background-image: url(/assets/background-1.png);
+  }
+  .bg-t-bg-pattern-modal-send-money-11frame {
+    background-image: url(/assets/Pattern.svg);
+  }
+  .bg-modal-send-money {
+    background-image: url(/assets/modal-send-money.png);
+  }
+}
