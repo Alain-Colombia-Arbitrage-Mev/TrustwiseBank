@@ -1,4 +1,4 @@
-export default function CheckboxIcon({ className = "" }: CheckboxIconProps) {
+export default function Check({ className = "" }: CheckProps) {
   return (
     <div className={`${className}`}>
       <svg width="100%" height="100%" style={{"overflow":"visible"}} preserveAspectRatio="none" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -9,6 +9,6 @@ export default function CheckboxIcon({ className = "" }: CheckboxIconProps) {
   );
 }
 
-interface CheckboxIconProps {
+interface CheckProps {
   className?: string;
 }

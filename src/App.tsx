@@ -1,8 +1,8 @@
 import React from "react";
-import Property1Variant from "./components/Property1Variant";
+import MacBookAir from "./components/MacBookAir";
 
 function App() {
-  return <Property1Variant />;
+  return <MacBookAir />;
 }
 
 export default App;
