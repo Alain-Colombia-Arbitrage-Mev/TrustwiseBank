@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState,react } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+import images from '../public/slider'
 
 export default function SignIn() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -31,7 +32,6 @@ export default function SignIn() {
         <div className="flex items-center space-x-6">
          <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-900">Personal</a>
           <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-900">Business</a>
-          <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-900">Partners</a>
           <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-900">Help & FAQ</a>
         </div>
         <div>
@@ -103,9 +103,9 @@ export default function SignIn() {
               </Button>
             </div>
             <div className="mt-8 text-center text-white max-w-md">
-              <h2 className="text-2xl font-bold mb-4">Get better with money</h2>
+              <h2 className="text-2xl font-bold mb-4">Get better with moneyssd</h2>
               <p className="text-sm">
-                TrustWise helps you set saving goals, earn cash back offers, Go to disclaimer for more details and get paychecks up to two days early. Get a $20 bonus when you receive qualifying direct deposits
+                TrustWise helps you set saving goals, earn cash bsdsdsdack offers, Go to disclaimer for more details and get paychecks up to two days early. Get a $20 bonus when you receive qualifying direct deposits
               </p>
             </div>
           </div>

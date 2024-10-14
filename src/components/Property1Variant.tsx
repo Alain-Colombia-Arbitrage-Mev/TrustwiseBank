@@ -1,5 +1,5 @@
 import HeaderSection from "./HeaderSection";
-import SignInForm from "./SignInForm";
+import SignInForm from "./sign-in";
 import FooterSection from "./FooterSection";
 
 export default function Property1Variant({
