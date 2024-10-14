@@ -1,8 +1,8 @@
 import React from "react";
-import SignInEmpty from "./components/SignInEmpty";
+import Property1Variant from "./components/Property1Variant";
 
 function App() {
-  return <SignInEmpty />;
+  return <Property1Variant />;
 }
 
 export default App;

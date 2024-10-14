@@ -4,12 +4,10 @@ export default {
     extend: {
       fontFamily: { manrope: "Manrope, ui-sans-serif, system-ui, sans-serif" },
       backgroundImage: {
-        "background-":
-          "url(/assets/background-1.png)",
-        "t-bg-pattern-modal-send-money-11frame":
-          "url(/assets/Pattern.svg)",
-        "modal-send-money":
-          "url(/assets/modal-send-money.png)",
+        background:
+          "url(/assets/background.png)",
+        frame:
+          "url(/assets/frame.png)",
       },
     },
   },

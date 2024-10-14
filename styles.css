@@ -6,13 +6,10 @@
   .font-manrope {
     font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
   }
-  .bg-background- {
-    background-image: url(/assets/background-1.png);
+  .bg-background {
+    background-image: url(/assets/background.png);
   }
-  .bg-t-bg-pattern-modal-send-money-11frame {
-    background-image: url(/assets/Pattern.svg);
-  }
-  .bg-modal-send-money {
-    background-image: url(/assets/modal-send-money.png);
+  .bg-frame {
+    background-image: url(/assets/frame.png);
   }
 }
